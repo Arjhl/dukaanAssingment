@@ -1,0 +1,79 @@
+.filterBox{
+    width: 1128px;
+    height: 40px;
+    display: flex;
+
+    justify-content: space-between;
+}
+.filterSearch{
+    display: flex;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    align-items: center;
+
+}
+.filterSearch input{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+}
+
+.filterSearch input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+}
+.filterSearch input:focus{
+    outline: none;
+}
+
+.filterSearch img{
+    height: 14px;
+    width: 14px;
+}
+.secondChild{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.sortCard{
+    display: flex;
+    border: 1px solid #d9d9d9;
+    padding: 6px 12px;
+    border-radius: 4px;
+    height: 36px;
+    width: 79px;
+    align-items: center;
+    gap:6px;
+
+}
+.sortCard p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+.sortCard img{
+    width: 16px;
+    height: 16px;
+}
+
+.download{
+    height: 36px;
+    /* width: 79px; */
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+}
+.download img{
+    width: 16px;
+    height: 16px;
+}

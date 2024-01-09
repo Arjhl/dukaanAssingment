@@ -1,0 +1,47 @@
+.listParent{
+    display: flex;
+    padding: 14px 12px;
+    display: flex;
+    gap:40px;
+    height: 48px;
+    width: 1128px;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+}
+.firstChild{
+    width: 246px;
+    height: 20px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color:  #146EB4;
+    
+}
+.secondChild{
+    width: 246px;
+    height: 20px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.thirdChild{
+    width: 246px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.fourthChild{
+    width: 246px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}

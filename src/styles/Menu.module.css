@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    height: 36px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    gap: 12px;
+
+}
+
+.activeMenu{
+
+        display: flex;
+        height: 36px;
+        border-radius: 4px;
+        padding: 8px 16px;
+        gap: 12px;
+        background-color: #FFFFFF1A;
+    
+}
+.menuImg{
+    opacity: .8;
+    height: 20px;
+    width: 20px;
+}
+.menuImg img{
+    width: 16.96px;
+    height: 17.5px;
+    position: relative;
+    top: 1.25px;
+    left: 1.25px;
+}
+.menuTitle{
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    opacity: .8;
+    width: 40px;
+    height: 20px;
+    color: white;
+}

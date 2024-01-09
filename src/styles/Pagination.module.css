@@ -1,0 +1,55 @@
+.paginationParent{
+    display: flex;
+    gap: 24px;
+    width: 610px;
+    height: 23px;
+    margin: 0 auto;
+    margin-top: 24px;
+    align-items: center;
+}
+.pageBtn{
+    display: flex;
+    padding: 6px 12px 6px 6px;
+    gap: 6px;
+    border-radius: 4px;
+    width: fit-content;
+    height: 32px;
+    border: 1px solid #d9d9d9;
+    align-items: center;
+    justify-content: center;
+}
+.pageBtn p{
+    font-weight: 500;
+    text-align: center;
+    line-height: 20px;
+    color: #4d4d4d;
+    font-size: 14px;
+}
+.pageBtn img{
+    width: 12px;
+    height: 12px;
+    color: #4d4d4d;
+}
+
+.pagenum{
+    display: flex;
+    gap: 8px;
+}
+.element{
+    width: 28px;
+    height: 28px;
+    padding: 2px 0;
+    justify-content: center;
+align-items: center;
+}
+.active{
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 28px;
+    height: 28px;
+    padding: 2px 0;
+    border-radius: 4px;
+    background-color:#146EB4;
+    color: white;
+}

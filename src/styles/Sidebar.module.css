@@ -1,0 +1,62 @@
+.sidebar{
+    background-color:#1E2640 ;
+    width: 224px;
+    padding: 16px 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1482px;
+}
+.profile{
+    display: flex;
+    gap:12px;
+    align-items: center;
+    width: 192px;
+    height: 42px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.profileImage{
+    height: 40px;
+    border-radius: 4px;
+
+}
+.profileDetails{
+    height: 42px;
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+.profileDetails h1{
+    font-size: 15px;
+    /* background-color: blue; */
+    align-self: stretch;
+    line-height: 22px;
+    color: white;
+}
+.profileDetails a{
+    opacity: .8;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.arrowDown{
+    width: 15px;
+    height: 8.68px;
+  
+    /* right: 2.5px; */
+}
+.menuBar{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 208px;
+    height: 1316px;
+    /* background-color: red; */
+}

@@ -1,0 +1,50 @@
+.cover{
+    border-radius: 4px;
+    background-color:#353C53 ;
+    padding: 6px 12px;
+    display: flex;
+    gap: 10px;
+    width: 192px;
+    height: 54px;
+}
+
+.Credits{
+  width: 149px;
+  height: 42px;
+  display: flex;
+  gap: 12px;
+}
+.walletImg{
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    gap: 10px;
+    display: flex;
+    background-color: #ffffff1a;
+    padding: 6px;
+}
+.creditsDetails{
+    width: 101px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.title{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    opacity: .8;
+    height: 16px;
+    text-wrap: nowrap;
+    /* font-style: normal; */
+    color: #fff;
+}
+.amount{
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    width: 51px;
+    height: 24px;    
+}
